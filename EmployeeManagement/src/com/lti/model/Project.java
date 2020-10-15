@@ -4,6 +4,7 @@ public class Project {
 
 	int projectCode;
 	String projectName;
+	int projectDuration;
 	
 	public int getProjectCode() {
 		return projectCode;
