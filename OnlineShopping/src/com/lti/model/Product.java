@@ -6,10 +6,16 @@ public class Product {
 	String productName;
 	String productDesc;
 	int quantity;
+	double price;
 	
 	public int getQuantity(){
 	return quantity;
 	}
+	
+	public double getPrice(){
+	return price;
+	}
+	
 	
 	public int getProductId() {
 		return productId;
